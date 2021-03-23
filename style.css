@@ -1,0 +1,832 @@
+*{
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   font-family: 'Blinker', sans-serif;
+   z-index: 1;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+
+.text {
+   height: 500px;
+   width: 100%;
+   background: black;
+}
+/* header section began here */
+
+#header-section {
+   width: 100%;
+   height: 600px;
+   background: linear-gradient(to right, yellow 50%, rgb(218, 177, 15));
+}
+
+/* logo & navbar section */
+
+.bg-header-color {
+   background: rgb(250, 234, 7);
+   position: fixed;
+   overflow: hidden;
+   top: 0;
+   width: 100%;
+   z-index: 2;
+}
+
+.head-nav {
+   height: 95px;
+   position: relative;
+}
+.logo {
+   font-weight: bolder;
+   text-transform: uppercase;
+   font-size: 30px;
+   height: 40px;
+   top: 0;
+   margin: auto;
+   bottom: 0;
+   position: absolute;
+   left: 0;
+}
+
+.nav-sec {
+   text-align: right;
+   position: absolute;
+   right: 0;
+   margin: auto;
+   padding: 15px 0;
+}
+
+.nav-top {
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+.nav-bottom {
+   padding: 5px 0 0 0;
+}
+
+.nav-list {
+   text-transform: uppercase;
+   font-size: 0;
+}
+
+.nav-list-item {
+   display: inline-block;
+   padding: 0 20px;
+   font-size: 18px;
+}
+
+.nav-list-item:first-child {
+   border-left: 0;
+   padding-left: 0;
+}
+
+.nav-list-item:last-child {
+   border-right: 0;
+   padding-right: 0;
+}
+
+.nav-list-item a {
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.nav-list-item a:hover {
+   text-shadow: 1px 2px 1px white;
+   transition: 1s;
+}
+
+/* header content section */
+
+.header-content {
+   padding: 10% 0;
+   margin: 7% 0;
+}
+
+.header-text {
+   padding: 15px;
+   width: 60%;
+   text-align: center;
+   float: left;
+   position: relative;
+}
+
+.header-text h2 {
+   font-size: 42px;
+}
+
+.header-text h1 {
+   font-size: 92px;
+   font-variant: small-caps;
+}
+
+.header-text h3 {
+   font-size: 22px;
+   font-stretch: expanded;
+   letter-spacing: 6px;
+}
+
+.header-content-line {
+   width: 50%;
+   border-bottom: 1px solid black;
+   left: 0;
+   right: 0;
+   margin: auto;
+   position: absolute;
+   padding: 10px 0;
+   display: block;
+}
+
+.happy-content {
+   margin-top: 40px;
+   width: 100%;
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-column-gap: 20px;
+}
+
+.happy-text {
+   text-transform: uppercase;
+   text-align: right;
+   height: 100%;
+}
+
+.happy-text h3 {
+   letter-spacing: 0px;
+   font-size: 18px;
+   padding-top: 5px;
+}
+
+.happy-num {
+   text-align: left;
+}
+
+.header-button {
+   text-align: center;
+   width: 100%;
+   clear: both;
+   padding: 20px 0;
+}
+
+.header-button button {
+   border: 2px solid black;
+   padding: 10px 7%;
+   background: none;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 3px;
+}
+
+.header-image {
+   width: 40%;
+   text-align: center;
+   float: right;
+   height: 461px;
+   position: relative;
+}
+
+.header-image img {
+   position: absolute;
+   margin: auto;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
+
+/* choose & enjoy sections */
+
+#choose-enjoy {
+   height: 700px;
+   text-align: center;
+   padding: 50px 0;
+   position: relative;
+}
+
+.choose-bg {
+   height: 100px;
+   width: 100%;
+   background-color: #E8E7A7;
+   z-index: -1;
+   margin: auto;
+   top: 0;
+   bottom: 0;
+   position: absolute;
+}
+
+.choose-text h1 {
+   font-size: 82px;
+   text-transform: uppercase;
+}
+.choose-text p {
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.choose-element {
+   z-index: 2;
+}
+
+.choose-element ul {
+   list-style: none;
+   padding: 30px 0;
+}
+
+.choose-element ul li {
+   display: inline-block;
+   width: 30%;
+}
+.choose-element ul li img {
+   padding: 0 0 20px 0;
+}
+
+.choose-element ul li button {
+   border: none;
+   padding: 10px 7%;
+   margin: 10px 0;
+   background: rgb(250, 234, 7);
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 3px;
+   text-transform: uppercase;
+}
+
+/* images slider box */
+
+#slider-container {
+   width: 100%;
+   height: 850px;
+   text-align: center;
+   background-color: rgba(0,0,0,1);
+   color: white;
+   padding: 50px 0;
+}
+
+.slider-text {
+   padding-bottom: 10px;
+}
+
+.slider-text h1{
+   font-size: 82px;
+   text-transform: uppercase;
+}
+
+.slider-text h4{
+   font-size: 32px;
+   text-transform: uppercase;
+   letter-spacing: 15px;
+}
+
+/* slider section */
+.slider-box {
+   width: 90%;
+   height: 500px;
+   margin: 30px auto;
+   overflow: hidden;
+   position: relative;
+}
+
+#slider {
+   float: left;
+   display: inline-flex;
+   transition: 0.7s;
+}
+
+#slider img {
+   width: 100%;
+}
+
+.indicator {
+   transform: translateX(-50%);
+   position: absolute;
+   left: 50%;
+   bottom: 20px;
+   height: 50px;
+}
+
+.indicator span {
+   display: inline-flex;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+   background-color: rgba(255,255,255,0.5);
+}
+
+.btn-active {
+   background-color: rgb(250, 234, 7) !important;
+}
+
+
+/* promote section */
+
+#promot-section {
+   width: 100%;
+   padding: 50px 0;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 200px 200px;
+   grid-gap: 30px;
+}
+
+.grid-item {
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.grid-item:first-child {
+   grid-row: 1 / 3;
+}
+
+.grid-item1{
+   background-image: url(./assets/images/top-view-cooked-italian-pasta-with-minced-meat-tomato-sauce-dark-blue-desk.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.grid-item1 h1{
+   width: 40%;
+}
+
+.grid-item2{
+   background-image: url(./assets/images/chicken-skewers-with-slices-sweet-peppers-dill.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.grid-item3{
+   background-image: url(./assets/images/top-view-cooked-italian-pasta-with-minced-meat-tomato-sauce-dark-blue-desk.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+/* table booking section */
+#table-book-section {
+   text-align: center;
+   padding: 30px 0;
+}
+
+.booking-text h4{
+   font-size: 32px;
+   text-transform: uppercase;
+   letter-spacing: 15px;
+}
+
+.booking-text h1{
+   font-size: 82px;
+   text-transform: uppercase;
+}
+
+.booking-form {
+   margin: 5% auto;
+   display: grid;
+   width: 80%;
+   grid-template-columns: 50% 50%;
+   grid-gap: 20px;
+}
+
+.bf-element input {
+   background: none;
+   border: 1px solid rgba(0,0,0,0.4);
+   border-radius: 3px;
+   width: 100%;
+   height: 50px;
+   padding: 0 20px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.bf-element input:focus {
+   border: 1px solid rgba(0,0,0,1);
+}
+
+.bf-element button {
+   border: none;
+   width: 100%;
+   height: 100%;
+   background: rgb(250, 234, 7);
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 3px;
+   text-transform: uppercase;
+}
+
+/* footer section */
+
+#footer-section {
+   width: 100%;
+   height: 550px;
+   background-image: url(./assets/images/top-view-fast-food-mix-hamburger-doner-sandwich-chicken-nuggets-rice-vegetable-salad-chicken-sticks-caesar-salad-mushrooms-pizza-chicken-ragout-french-fries-mayo.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+}
+
+.footer-overlay {
+   height: 100%;
+   width: 100%;
+   background: rgba(0,0,0,0.8);
+   color: white;
+}
+
+.footer-content {
+   position: absolute;
+   height: 70%;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+}
+
+.footer-info {
+   float: left;
+   width: 50%;
+   height: 100%;
+   position: relative;
+}
+
+.footer-info h1 {
+   font-weight: bolder;
+   text-transform: uppercase;
+   font-size: 30px;
+   height: 40px;
+   top: 0;
+   margin: auto;
+   position: absolute;
+   padding: 0 10px;
+   color: rgb(250, 234, 7);
+}
+
+.footer-info p {
+   font-size: 18px;
+   margin-top: 25%;
+   padding: 0 10px;
+}
+
+.footer-info span {
+   bottom: 0;
+   height: 10%;
+   margin: auto;
+   position: absolute;
+   padding: 0 10px;
+   font-size: 15px;
+}
+
+.footer-contact {
+   float: right;
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+.contact {
+   padding: 0 10px;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   position: absolute;
+   height: 30%;
+   width: 50%;
+}
+
+.contact-item {
+   display: inline-flex;
+   width: 100%;
+}
+
+.contact-item p {
+   padding: 3px 10px;
+}
+
+.contact-item i {
+   color: rgb(250, 234, 7);
+}
+
+.social-icon {
+   padding: 0 10px;
+   height: 15%;
+   margin: auto;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+}
+
+.social-icon button {
+   padding: 5px;
+   background: white;
+   border-radius: 50%;
+   color: black;
+   cursor: pointer;
+   border: none;
+   height: 30px;
+   width: 30px;
+}
+
+.social-icon i {
+   font-size: 18px;
+}
+
+@media screen and (max-width: 1024px){}
+
+@media screen and (max-width: 900px){
+   #header-section {
+      height: 500px;
+   }
+   .head-nav {
+      height: 85px;
+   }
+   .nav-list-item {
+      padding: 0 12px;
+      font-size: 16px;
+   }
+   .header-text h2 {
+      font-size: 22px;
+   }
+   .header-text h1 {
+      font-size: 62px;
+   }
+   .header-text h3 {
+   font-size: 15px;
+   letter-spacing: 4px;
+   }
+   #choose-enjoy {
+      height: 600px;
+   }
+   .choose-text h1 {
+      font-size: 72px;
+   }
+   .choose-text p {
+      letter-spacing: 0px;
+   }
+   .choose-bg {
+      height: 60px;
+   }
+   .choose-element ul li img {
+      width: 90%;
+      padding: 5px 0;
+   }
+   .slider-box {
+      height: 80%;
+   }
+   .slider-text h1{
+      font-size: 72px;
+   }
+   .slider-text h4{
+      font-size: 22px;
+   }
+   .grid-overlay {
+      background-color: rgba(0,0,0,0.4);
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+   }
+   .grid-item h1{
+      font-size: 50px;
+   }
+   .grid-item h3{
+      font-size: 30px;
+   }
+   .grid-item h4{
+      font-size: 30px;
+   }
+   .booking-text h4{
+      font-size: 22px;
+   }
+   .booking-text h1{
+      font-size: 72px;
+   }
+}
+
+@media screen and (max-width: 700px){
+   #header-section {
+      height: 400px;
+   }
+   .logo {
+      font-size: 20px;
+      height: 30px;
+   }
+   .nav-top {
+      font-size: 15px;
+   }
+   .nav-list-item {
+      padding: 0 5px;
+      font-size: 13px;
+   }
+   .header-text {
+      padding-top: 50px;
+   }
+   .header-text h2 {
+      font-size: 18px;
+   }
+   .header-text h1 {
+      font-size: 42px;
+   }
+   .header-text h3 {
+   font-size: 12px;
+   letter-spacing: 2px;
+   }
+   .happy-text h3 {
+      font-size: 10px;
+      padding-top: 5px;
+   }
+   .happy-num h2 {
+      font-size: 35px;
+   }
+   .header-image {
+      height: 350px;
+   }
+   .header-image img {
+      height: 70%;
+   }
+   #choose-enjoy {
+      height: 485px;
+   }
+   .choose-text h1 {
+      font-size: 42px;
+   }
+   .choose-text p {
+      letter-spacing: 0px;
+      font-size: 10px;
+   }
+   .choose-bg {
+      display: none;
+   }
+   .choose-element ul li img {
+      width: 90%;
+      padding: 5px 0;
+   }
+   .choose-element ul li h2 {
+      font-size: 15px;
+   }
+   .choose-element ul li p {
+      font-size: 12px;
+   }
+   .choose-element ul li button {
+      font-size: 12px;
+   }
+   #slider-container {
+      height: 585px;
+   }
+   .slider-box {
+      height: 80%;
+   }
+   .slider-text h1{
+      font-size: 42px;
+   }
+   .slider-text h4{
+      font-size: 18px;
+   }
+   .grid-item {
+      padding: 0;
+   }
+   .grid-overlay {
+      background-color: rgba(0,0,0,0.4);
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+   }
+   .grid-item h1{
+      font-size: 30px;
+   }
+   .grid-item h3{
+      font-size: 25px;
+   }
+   .grid-item h4, h6{
+      font-size: 15px;
+   }
+   .booking-text h4{
+      font-size: 18px;
+   }
+   .booking-text h1{
+      font-size: 42px;
+   }
+   .footer-info h1 {
+      font-size: 20px;
+   }
+}
+
+
+@media screen and (max-width: 480px) {
+   #header-section {
+      height: 400px;
+   }
+   
+   .head-nav {
+      height: 60px;
+   }
+   .logo {
+      font-size: 15px;
+      height: 20px;
+   }
+   .nav-top {
+      font-size: 10px;
+   }
+   .nav-list-item {
+      padding: 0 5px;
+      font-size: 9px;
+   }
+   .header-text {
+      float: none;
+      width: 100%;
+   }
+   .header-text h2 {
+      font-size: 15px;
+   }
+   .header-text h1 {
+      font-size: 42px;
+   }
+   .header-text h3 {
+   font-size: 12px;
+   letter-spacing: 2px;
+   }
+   .happy-text h3 {
+      font-size: 10px;
+      padding-top: 5px;
+   }
+   .happy-num h2 {
+      font-size: 35px;
+   }
+   .header-image {
+      display: none;
+   }
+   #choose-enjoy {
+      height: 1200px;
+   }
+   .choose-element ul li {
+      display: block;
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.4);
+      border-radius: 2px;
+      padding: 10px;
+      border-bottom: 0;
+   }
+   .choose-element ul li:last-child {
+      border-bottom: 1px solid rgba(0,0,0,0.4);
+   }
+   .choose-element ul li img {
+      width: 70%;
+      padding: 10px 0;
+   }
+   .grid-container {
+      grid-template-rows: 150px 150px;
+   }
+   .grid-item h1{
+      font-size: 20px;
+   }
+   .grid-item h3{
+      font-size: 15px;
+   }
+   .grid-item h4, h6{
+      font-size: 10px;
+   }
+   .bf-element button {
+      font-size: 12px;
+   }
+   #footer-section {
+      height: 550px;
+   }
+   .footer-content {
+      height: 100%;
+      padding: 20px 0;
+      position: unset;
+
+   }
+   .footer-info {
+      width: 100%;
+      float: none;
+      height: 50%;
+   }
+   .footer-info h1 {
+      font-size: 15px;
+      position: unset;
+   }
+   .footer-info p {
+      font-size: 13px;
+   }
+   .footer-contact {
+      width: 100%;
+      float: none;
+      height: 50%;
+   }
+   .social-icon {
+      height: auto;
+   }
+}
+
+
+@media screen and (max-width: 320px) {}
